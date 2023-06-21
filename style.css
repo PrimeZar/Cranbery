@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+    text-decoration: none;
+
+}
+:root{
+
+    --color-1: rgb(19, 18, 18);
+    --color-2: rgba(233, 225, 225, 0.726);
+    --color-3: rgb(73, 72, 72);
+    --color-4: rgb(141, 67, 211);
+    --color-5-wr: rgb(197, 189, 189);
+    --color-6: rgb(37, 35, 35);
+    --color-7: rgb(249, 252, 117);
+    --color-8: rgb(209, 230, 92);
+    --color-9-pink: pink;
+
+    
+
+
+}
+
+
+body{
+    background: var(--color-2);
+    margin-top: 2rem;
+    
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    background: var(--color-1);
+    padding: 3rem;
+    
+}
+
+button{
+    background: var(--color-4);
+    padding: 0 10px;
+    font-size: 10px;
+    color: white;
+    border-radius: 0.4rem;
+    border: none;
+    width: 90px;
+    height: 27px;
+}
+nav{
+   
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    margin-top: 2rem;
+}
+
+nav .info{
+    display: flex;
+    justify-content: space-between;
+    background: var(--color-3);
+    border-radius: 2rem;
+    width: 30rem;
+    padding: 8px 20px;
+    font-size: 0.8rem;
+    color: var(--color-5-wr);
+   
+}
+
+/* ===========header============== */
+ header{
+    color: white;
+    display: grid;
+    grid-template-columns: 60% 35%;
+    gap: 3rem;
+ }
+
+.left{
+    /* background: rgb(98, 0, 255); */
+
+
+}
+.img-smile img{
+    height: 1.5rem;
+    width: 2rem; 
+
+}
+.left h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.left p{
+    color: var(--color-5-wr);
+    margin: 1rem 0;
+    font-size: 1rem;
+    line-height: 2rem;
+   
+}
+.btn{
+    display: inline;
+    bottom: 0;
+}
+.icon-video, a{
+    display: inline;
+    margin-left: 0.8rem;
+    font-size: 1rem;
+    color: var(--color-5-wr);
+    
+}
+
+
+
+.right{
+    display: flex;
+    gap: 1.3rem;
+    padding-left:3rem ;
+}
+
+.long-image img{
+    background: var(--color-9-pink);
+    height: 16rem;
+    border-radius: 4rem;
+   
+}
+
+.short-image{
+    height: 16rem;
+}
+
+.circle-write-up{
+    background: var(--color-3);
+    border-radius: 100%;
+    height: 8rem;
+    width: 8rem;
+    border: 2px solid white;
+    margin-bottom: 0.5rem;
+    
+
+}
+.circle-write-up h3{
+    font-size: 2rem;
+    line-height: 1.6rem;
+    text-align: center;
+    padding-top:3rem;
+}
+.circle-write-up p{ 
+    font-size: 1rem;
+    color: var(--color-5-wr);
+    /* line-height: 0.9; */
+    text-align: center;
+}
+
+
+
+
+.below-image>img{
+    width: 95%;
+    height: 100%;
+}
+.below-image{
+    background: rgb(186, 186, 229);
+    height: 7rem;
+    width: 8rem;
+    border-radius: 0.8rem;
+    position: relative;
+    
+}
+
+.shirley-img{
+    position: absolute;
+    bottom: 0.2rem;
+    right: 1.7rem;
+    /* width: 3rem; */
+    /* transform: translateY(10%); */
+    background: var(--color-4);
+    padding: 0.3rem;
+
+}
+.shirley-img>p{
+    font-size: 0.8rem;
+}
+
+
+
+
+
+/* ========== section ============= */
+
+.below-section{
+    display: grid;
+    grid-template-columns: 60% 33%;
+    height: 24rem;
+    gap: 2rem;
+}
+
+.fec{
+    display: flex;
+    gap: 5rem;
+   margin-top: 3rem;
+}
+/* =======   sec-below-right   ========== */
+.sec-below-right{
+    background: var(--color-6);
+    padding: 1.2rem;
+    border-radius: 1.5rem;
+    border: 1px solid var(--color-2);
+    height: 23rem;
+}
+
+.sec-below-right h2{
+    color: var(--color-5-wr);
+    border-bottom: 0.5px solid var(--color-5-wr);
+    padding-bottom: 0.3rem;
+    margin-bottom: 2rem;
+    
+}
+.invite  h3, .cloud h3{
+    color: var(--color-5-wr);
+    font-size: 16px;
+}
+.invite p, .cloud p{
+    color: var(--color-2);
+    font-size: 10px;
+    margin-top: 0.7rem;
+   
+}
+
+.icon{
+    font-size: 2rem;
+    border-radius: 100%;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    padding-top: 0.4rem;
+    margin-bottom: 1.3rem;
+}
+.invite .icon{
+    background: var(--color-7);
+}
+.cloud .icon{
+    background: var(--color-8);
+}
+
+
+
+/* ==========   sec-below-left  ================= */
+
+
+.mini-cards{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1.8rem;
+  
+}
+
+.hot-deals >button, .green-card>button{
+    background: transparent;
+    border: 2px solid var(--color-5-wr);
+    border-radius: 1rem;
+    width: 7rem;
+    height: 2rem;
+    color: var(--color-1);
+    font-size: 1rem;
+    
+}
+.bh3{
+    padding-left: 0.4rem;
+}
+.yellow-card {
+    background: var(--color-7);
+
+}
+.emoji img{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.emoji{
+    padding: 1rem;
+    background: var(--color-9-pink);
+    border-radius: 10px;
+    
+} 
+
+.free{
+    padding-left: 1rem;
+    width: 12rem;
+}
+.free >h3{
+    font-size: 1.9rem;
+}
+
+.free >p{
+    padding-top:0.5rem;
+    font-size: 14px;
+    color: var(--color-3);
+} 
+
+.yellow-emoji{
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+.green-card{
+    background: var(--color-8);
+}
+
+.green-card >p{
+    margin:1.4rem 0 0.5rem 0;
+
+ }
+.green-card >h3{
+    font-size: 2rem;
+    display: inline;
+    
+}
+.yellow-card,.green-card{
+    border-radius: 0.9rem;
+    width: 100%;
+    height: 11rem;
+    padding: 1.5rem;
+}
+
+
+.long-card{
+    background: whitesmoke;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-bottom: 5rem;
+}
+
+.all-in-one{
+    display: flex;
+    height: 5rem;
+}
+
+
+.purple-card {
+    background: rgb(248, 237, 237);
+    border-radius: 0.5rem ;
+    width: 6rem;
+    margin: 1rem 1rem 0 0;
+    height: 5rem;
+    text-align: center;
+    padding-top: 1rem;
+    border: 2px solid var(--color-5-wr);
+}
+
+.purple-card p{
+    color: var(--color-6);
+    padding-bottom: 0.5rem;
+}
+
+.purple-card h3{
+    font-size: 1.5rem;
+}
+.purple-card:nth-child(2){
+    background: var(--color-4);
+}
+
+.vertical-line{
+    border-left: 3px solid var(--color-5-wr);
+    margin: 1.5rem 2rem 0 1rem;
+    height: 4rem;
+}
+.open-card{
+    margin:1rem 0  0 0rem;
+    width: 18rem;
+}
+
+.open-card h3{
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.open-card >p{
+    margin: 0;
+    word-spacing: 0.5rem;
+}
